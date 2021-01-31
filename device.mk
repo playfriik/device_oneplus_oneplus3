@@ -215,6 +215,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service
 
+$(call inherit-product-if-exists, packages/apps/GoogleCameraPort/oneplus3/oneplus3.mk)
+
 # Charger
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.charger.enable_suspend=true
