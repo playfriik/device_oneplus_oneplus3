@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fingerprint -->
+    <dimen name="fingerprint_dot_radius">5dp</dimen>
+    <item name="fingerprint_sensor_location_fraction_y" type="fraction">94.6%</item>
+
+</resources>
