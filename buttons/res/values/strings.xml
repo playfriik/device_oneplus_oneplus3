@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="empty" translatable="false" />
+
+    <string name="app_name" translatable="false">Buttons</string>
+
+    <!-- Buttons -->
+    <string name="buttons_title">Buttons</string>
+
+    <string name="buttons_virtual_title">Navigation bar</string>
+    <string name="buttons_virtual_description">Disable hardware buttons and enable on-screen navigation bar</string>
+
+    <string name="buttons_hardware_category">Hardware buttons</string>
+    <string name="buttons_hardware_backlight_brightness_title">Backlight brightness</string>
+    <string name="buttons_hardware_backlight_brightness_description">Customize backlight intensity on Back and Recents buttons</string>
+    <string name="buttons_hardware_swap_title">Swap buttons</string>
+    <string name="buttons_hardware_swap_description">Swap the order of Back and Recents buttons</string>
+
+</resources>

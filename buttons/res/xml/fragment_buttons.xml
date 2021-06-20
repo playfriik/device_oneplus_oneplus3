@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:disableDependentsState="true"
+        android:key="buttons_virtual"
+        android:title="@string/buttons_virtual_title"
+        android:summary="@string/buttons_virtual_description" />
+
+    <PreferenceCategory
+        android:dependency="buttons_virtual"
+        android:title="@string/buttons_hardware_category">
+
+        <SeekBarPreference
+            android:key="buttons_hardware_backlight_brightness"
+            android:title="@string/buttons_hardware_backlight_brightness_title"
+            android:summary="@string/buttons_hardware_backlight_brightness_description"
+            android:defaultValue="40"
+            android:max="40" />
+
+        <SwitchPreference
+            android:key="buttons_hardware_swap"
+            android:title="@string/buttons_hardware_swap_title"
+            android:summary="@string/buttons_hardware_swap_description" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
