@@ -1,0 +1,16 @@
+android_app {
+    name: "AlertSlider",
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    manifest: "AndroidManifest.xml",
+    system_ext_specific: true,
+    platform_apis: true,
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    optimize: {
+        enabled: false,
+    },
+    privileged: true,
+}

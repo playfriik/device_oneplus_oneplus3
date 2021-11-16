@@ -198,6 +198,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# Alert Slider
+PRODUCT_PACKAGES += \
+    AlertSlider
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
